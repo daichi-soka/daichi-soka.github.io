@@ -1,0 +1,34 @@
+@charset "utf-8";
+#top{
+    color: crimson;
+}
+
+h2{
+    text-align: center;
+}
+
+img{
+     background-color: aliceblue;
+}
+
+.matome{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+
+table>tr>th{
+    background-color: chocolate;
+}
+
+input{
+    background: linear-gradient(-45deg, rgba(246, 255, 0, .5), rgba(255, 0, 161, .5));
+}
+
+
+
+.kuji{
+    width: 30%;
+    float: none;
+    background-color: none;
+    height: 30%;
+}
