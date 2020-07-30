@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="ja"> 
+    <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="DaichiTAKAGI" />
+    <meta name="keywords" content="DaichiTakgi, LINE" />
+    <link rel="stylesheet" href="./css/base.css">
+    <title>高木大地について</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <table border="3">
+                <tr>
+                    <th>外部リンク→</th>
+                    <th colspan="2">
+                        <!--                    <a href="">-->
+                        LINEスタンプ購入はこちら（今回は課題のためURL無し）
+                        <!--                    </a>-->
+                    </th>
+                    <!-- <th>空データ</th> -->
+            </table>
+        </nav>
+    </header>
+
+    <h1 id="top">高木 大地についてざっくり知るためのページ</h1>
+
+
+    <h2>高木大地とは何か</h2>
+    <img src="img/baby.JPG" width="200" alt="幼少期" />
+    <dl>
+
+        <dt>高木大地</dt>
+        <dt>Takagi Daichi</dt>
+
+        <dd>2000年、大阪府に生まれる。高校入学と同時に上京し、今では関西を捨てたと言われるまでに順応、音楽や美術など様々な芸術に精通（したいと思っている）。</dd>
+    </dl>
+
+    <div>
+        <h2>絵と高木大地の出会い</h2>
+        <h3>はじめてのLINEスタンプ</h3>
+        <p>私は、小さな時からとにかく絵が下手で、動物の画もろくに書けないほどの、いわゆる「画伯」でした。しかし大学に入り、様々な価値観を吸収する中で、「自分の個性も立派な芸術だ！」と悟達（開き直りともいう）、自身の才能のなさに勝つためにあえて苦手な絵に挑戦する。今回のページで登場するキャラクターは全て私がイラストしたものであるが、どうが気分を害さないでほしい。</p>
+
+        <img src="img/neko.png" width="200" alt="猫" />
+
+        <p>ぜひLINEスタンプショップで探してみてほしい。（利益目的ではないためここにはリンクは貼りません）</p>
+
+        <div>
+            <h3>これからも</h3>
+            <p>もちろん、この絵で飯を食っていこうなど思っていませんが、遊びに全力な大人をめざして没頭していくつもりです。</p>
+        </div>
+
+    </div>
+
+    <div>
+        <h2>キャラクター紹介（一部）</h2>
+        <p>僕の描いたキャラクターを紹介してみます！</p>
+
+        <ol>
+            <li>パンダ　
+                <div>
+                    <img src="img/panda.png" width="180" alt="パンダ" />
+                </div>
+                <p>疑問を抱いているパンダです。ウザイけど憎めない表情がミソです。</p>
+            </li>
+
+            <li>トラ
+                <div>
+                    <img src="img/tora.png" width="200" alt="トラ" />
+                </div>
+                <p>なんか一番細部にこだわった気がします。手は絵の下手な人のそれ。</p>
+            </li>
+
+            <li>カピバラ
+                <div>
+                    <img src="img/kapi.png" width="200" alt="カピバラ" />
+                </div>
+                <p>初見でカピバラと答えられたらすごい。色彩感覚はバグっています。</p>
+            </li>
+
+        </ol>
+        <div>
+        <img class="kuji" src="img/kuji.png">
+            <p>↑押してみてね　あなたの運勢は、、、？</p>
+            <p class=kujikekka></p>
+        </div>
+        
+        <div>
+        <h2>出す手を決めてね！</h2>
+        <button type="button" onclick="janken(0)"><img src="img/gu.png" alt="グー" /></button>
+        <button type="button" onclick="janken(1)"><img src="img/choki.png" alt="チョキ" /></button>
+        <button type="button" onclick="janken(2)"><img src="img/pa.png" alt="パー" /></button>
+    </div>
+        
+        <div>
+            <h2>まとめ</h2>
+            <ins>
+                <p class="matome">今回は、僕、高木大地について書きました！次回もお楽しみに！！！</p>
+            </ins>
+
+        </div>
+    </div>
+
+
+    <a href="#top"><img src="img/page-top.png" width="100" alt="トップに戻る" /> </a>
+
+    <hr />
+
+    <p>
+        <label for="requests">サイトに関してご要望等ありましたらお寄せくださると幸いです：</label>
+        <textarea id="requests" name="requests" rows="10" cols="70"></textarea>
+    </p>
+    <p>
+        <input type="checkbox" name="agreement" id="agreement" checked />
+        <lable for="agreement">メルマガを受け取る（ないけど）</lable>
+    </p>
+    <p>
+        <input type="submit" value="どこにも送信されません" />
+    </p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/final.js"></script>
+
+    <footer>
+        Copyright &copy; Daichi Takagi. All Rights Reserved.
+    </footer>
+</body></html>
